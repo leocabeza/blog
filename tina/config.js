@@ -69,32 +69,8 @@ export default defineConfig({
 								label: "Technical",
 							},
 							{
-								value: "advice",
-								label: "Advice",
-							},
-							{
-								value: "events",
-								label: "Events",
-							},
-							{
 								value: "learning",
 								label: "Learning",
-							},
-							{
-								value: "meta",
-								label: "Meta",
-							},
-							{
-								value: "work",
-								label: "Work",
-							},
-							{
-								value: "personal",
-								label: "Personal",
-							},
-							{
-								value: "musings",
-								label: "Musings",
 							},
 						],
 					},
