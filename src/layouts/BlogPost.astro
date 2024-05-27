@@ -5,6 +5,7 @@ import Footer from "../components/Footer.astro";
 import ColorScript from "../components/ColorScript.astro";
 import Tags from "../components/Tags.astro";
 import getTags from "../scripts/getTags";
+import PlausibleScript from "../components/PlausibleScript.astro";
 
 const posts = await Astro.glob("../posts/*.md");
 const allTags = getTags(posts);
@@ -58,5 +59,6 @@ if (updated) {
 		<Tags tags={allTags} all />
 		<Footer />
 		<ColorScript />
+		<PlausibleScript />
 	</body>
 </html>

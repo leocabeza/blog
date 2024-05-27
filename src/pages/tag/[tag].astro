@@ -6,6 +6,7 @@ import Post from "../../components/Post.astro";
 import ColorScript from "../../components/ColorScript.astro";
 
 import { SITE_TITLE, SITE_DESCRIPTION } from "../../config";
+import PlausibleScript from "../../components/PlausibleScript.astro";
 
 // Credit to @rachsmithcodes for helping out my lil ol brain
 export async function getStaticPaths() {
@@ -63,5 +64,6 @@ let sortedPosts = tag.sort(
 			<Footer />
 		</main>
 		<ColorScript />
+		<PlausibleScript />
 	</body>
 </html>
