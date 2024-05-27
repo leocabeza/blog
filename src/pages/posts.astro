@@ -7,6 +7,7 @@ import Post from "../components/Post.astro";
 import ColorScript from "../components/ColorScript.astro";
 
 import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+import PlausibleScript from "../components/PlausibleScript.astro";
 
 let posts = await getCollection("posts");
 
@@ -44,5 +45,6 @@ posts = posts.sort(
 		</main>
 		<Footer />
 		<ColorScript />
+		<PlausibleScript />
 	</body>
 </html>
